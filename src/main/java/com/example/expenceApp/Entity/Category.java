@@ -14,20 +14,14 @@ public class Category {
 private Long id;
 private String name;
 private TransactionType transactionType;
-@OneToMany(mappedBy = "category")
-private List<Transaction> transaction;
+
 public String getName() {
 	return name;
 }
 public void setName(String name) {
 	this.name = name;
 }
-public List<Transaction> getTransaction() {
-	return transaction;
-}
-public void setTransaction(List<Transaction> transaction) {
-	this.transaction = transaction;
-}
+
 public TransactionType getTransactionType() {
 	return transactionType;
 }

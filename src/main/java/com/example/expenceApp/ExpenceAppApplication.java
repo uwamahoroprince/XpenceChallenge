@@ -20,7 +20,7 @@ public class ExpenceAppApplication {
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/**").allowedOrigins("https://expense-pp.herokuapp.com");
+				registry.addMapping("/**").allowedOrigins("http://localhost:3000/");
 			}
 		};
 	}

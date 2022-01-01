@@ -3,6 +3,7 @@ package com.example.expenceApp.Controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -26,6 +27,7 @@ public class TransactionController {
     public List<Transaction> getAllTransaction(){
 	return transactionService.getAllTransactions();
     }
+    @CrossOrigin
     @DeleteMapping("/Transaction/{id}")
     public String deleteTransaction(@PathVariable("id") Long id) {
 	String msg = "DELETED";

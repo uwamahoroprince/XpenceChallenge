@@ -18,9 +18,10 @@ public class ExpenceAppApplication {
 	@Bean
 	public WebMvcConfigurer corsConfigurer() {
 		return new WebMvcConfigurer() {
+		    //https://expence-front-end.herokuapp.com/
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/**").allowedOrigins("https://expence-front-end.herokuapp.com/");
+				registry.addMapping("/**").allowedOrigins("https://expence-front-end.herokuapp.com");
 			}
 		};
 	}

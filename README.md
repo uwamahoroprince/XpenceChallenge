@@ -40,7 +40,9 @@ https://documenter.getpostman.com/view/12238999/UV5XgH9n -->
 
 ## downloading the application
 
-https://github.com/uwamahoroprince/-AwesomityBackendChallenge.git
+Backend -> (https://github.com/uwamahoroprince/XpenceChallenge.git).
+FrontEnd -> (https://github.com/uwamahoroprince/XpenseFrontEnd.git).
+
 
 ## before running application make sure that port 3000 is free
 

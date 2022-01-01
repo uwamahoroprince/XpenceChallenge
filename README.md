@@ -34,9 +34,9 @@ node version 14.17 +.
 ## open your IDE and start the Application
 
 ## API
-
+<!-- 
 Full API documentation is available at the following link
-https://documenter.getpostman.com/view/12238999/UV5XgH9n
+https://documenter.getpostman.com/view/12238999/UV5XgH9n -->
 
 ## downloading the application
 

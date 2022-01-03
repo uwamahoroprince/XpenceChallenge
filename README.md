@@ -44,7 +44,7 @@ Backend -> (https://github.com/uwamahoroprince/XpenceChallenge.git).
 FrontEnd -> (https://github.com/uwamahoroprince/XpenseFrontEnd.git).
 
 
-## before running application make sure that port 3000 is free
+## before running FrontEnd application make sure that port 3000 is free
 
 ## open terminal and navigate to project directory then run next command
 

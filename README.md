@@ -24,7 +24,7 @@ JSK 11.
 postman(or any api consummer app) -> (https://www.postman.com/downloads/).
 nodejs version 14 + (https://nodejs.org/en/).
 
-## make sure that you have the following installed to setUp the Backend
+## make sure that you have the following installed to setUp the Front-End
 
 npm version 6 +.
 node version 14.17 +.
